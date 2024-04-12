@@ -107,7 +107,7 @@ def blast_search(f, output_matched_fasta=True):
         "--usearch_global",
         os.path.join(OUTPUT_DIR, f),
         "--db",
-        os.path.join(REFERENCE_DIR, "ev_reference_sequences.fasta"),
+        os.path.join(REFERENCE_DIR, "ev_reference_sequences.fasta.gz"),
         "--id",
         "0.80",
         "--strand",

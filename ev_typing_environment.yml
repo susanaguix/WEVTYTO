@@ -65,4 +65,4 @@ dependencies:
   - zlib=1.2.13=h166bdaf_4
   - pip:
       - xlrd==2.0.1
-prefix: /home/laboratori6/miniforge3/envs/ev_typing
+
