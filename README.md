@@ -9,4 +9,4 @@ ev_typing_nix.py is the script to analyse those samples that were amplified foll
 
 ev_typing_shaw.py is the script to analyse those samples that were amplified following the Shaw et.al., 2020 protocol targeting Cluster C Enterovirus. 
 
-ev_reference_sequences.zip contains a FASTA file with reference sequences from all Enterovirus types. There are 6303 references making it a big file. If preferred, a custom reference FASTA file can be used.
+ev_reference_sequences.fasta.gz contains a FASTA file with reference sequences from all Enterovirus types. There are 6303 references. If preferred, a custom reference FASTA file can be used always keeping the same header structure as the provided file.
