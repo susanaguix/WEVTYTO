@@ -149,7 +149,7 @@ def blast_search(f, output_matched_fasta=True):
 
 def calculate_abundance(f, max_rows_per_sheet=100000):
     sample = os.path.splitext(f)[0]
-    sample_name = sample.split('_')[0]
+    sample_name = sample.split('_filtered')[0]
     blast_results = os.path.join(OUTPUT_DIR, f"{sample}_results.txt")
     excel_results_dir = os.path.join(OUTPUT_DIR, "Excel_results")
     os.makedirs(excel_results_dir, exist_ok=True)
